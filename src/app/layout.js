@@ -3,7 +3,7 @@ import { oswaldFont } from '@/utils/fonts';
 
 // app/layout.js
 export const metadata = {
-  title: 'M - BOILERPLATE',
+  title: 'BOILERPLATE',
   description: 'A pure NextJS template with everything needed to get started with creating a new website.',
   icons: {
     icon: [

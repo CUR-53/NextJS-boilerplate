@@ -4,7 +4,7 @@
   position: relative;
 
   min-width: 300px;
-  padding: 50px 50px;
+  padding: 50px 50px 80px;
   border-radius: 20px;
   background-color: var(--main-darkGreen);
 
@@ -23,4 +23,20 @@
 
 .boilerbox img {
   width: 100%;
+}
+
+.dateYear {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  font-size: 13px;
+  left: 0;
+  right: 0;
+  gap: 3px;
+}
+
+.dateYear svg {
+  font-size: 15px;
 }
