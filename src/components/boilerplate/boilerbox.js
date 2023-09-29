@@ -7,13 +7,13 @@ import { BiCopyright } from 'react-icons/bi';
 const BoilerBox = () => {
   return (
     <div className={styles.boilerbox}>
-      <Image src={'/logo/m-logo-white.svg'} alt="M Logo" width={132} height={150} />
+      <Image src={'/logo/logo-white.svg'} alt="M Logo" width={132} height={150} />
       <div>
         <h1>NextJS Template</h1>
         <Link href="/about" className={styles.about}>
           ABOUT PAGE
         </Link>
-        <span className={styles.dateYear}>
+        <span className={styles.copyright}>
           <BiCopyright />
           Copyright&nbsp;
           <DateYear /> - All Rights Reserved

@@ -1,10 +1,11 @@
 .boilerbox {
   display: flex;
   flex-direction: column;
+
   position: relative;
 
   min-width: 300px;
-  padding: 50px 50px 80px;
+  padding: 40px 50px 90px;
   border-radius: 20px;
   background-color: var(--main-darkGreen);
 
@@ -18,6 +19,7 @@
 .boilerbox > div {
   display: flex;
   flex-direction: column;
+
   gap: 5px;
 }
 
@@ -25,18 +27,23 @@
   width: 100%;
 }
 
-.dateYear {
-  position: absolute;
+.copyright {
   display: flex;
-  justify-content: center;
   align-items: center;
-  bottom: 20px;
-  font-size: 13px;
+  justify-content: center;
+
+  position: absolute;
   left: 0;
   right: 0;
+  bottom: 20px;
+
+  font-size: 13px;
+
   gap: 3px;
 }
 
-.dateYear svg {
+.copyright svg {
+  margin-top: 2px;
+
   font-size: 15px;
 }

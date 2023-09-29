@@ -9,13 +9,13 @@ export const metadata = {
     icon: [
       {
         media: '(prefers-color-scheme: light)',
-        url: '/favIcon/m-favicon-dark.svg',
-        href: '/favIcon/m-favicon-dark.svg',
+        url: '/favIcon/favicon-dark.svg',
+        href: '/favIcon/favicon-dark.svg',
       },
       {
         media: '(prefers-color-scheme: dark)',
-        url: '/favIcon/m-favicon-light.svg',
-        href: '/favIcon/m-favicon-light.svg',
+        url: '/favIcon/favicon-light.svg',
+        href: '/favIcon/favicon-light.svg',
       },
     ],
   },
